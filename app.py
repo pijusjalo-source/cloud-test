@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    greeting = os.environ.get("GREETING", "Hello from the cloud!")
+    greeting = os.environ.get("Hello from the cloud!")
     return greeting
 
 if __name__ == "__main__":
